@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/ChristopherAedoP/godesde0/ejercicios"
+	"github.com/ChristopherAedoP/godesde0/teclado"
 )
 
 func main() {
@@ -27,8 +25,9 @@ func main() {
 	// 	fmt.Println("%s \n", os)
 	// }
 
-	numero, texto := ejercicios.ConvNumerico("4")
-	fmt.Println(numero)
-	fmt.Println(texto)
+	// numero, texto := ejercicios.ConvNumerico("4")
+	// fmt.Println(numero)
+	// fmt.Println(texto)
 
+	teclado.IngresoNumeros()
 }
